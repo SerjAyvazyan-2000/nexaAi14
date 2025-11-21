@@ -12,14 +12,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      as="style"
+    />
+    <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      as="style"
     />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      media="print"
+      onload="this.media='all'"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preload" href="style.css" as="style" />
+    <link
+      rel="stylesheet"
+      href="style.css"
+      media="print"
+      onload="this.media='all'"
+    />
   </head>
   <body>
     <div class="m-wrapper">
@@ -265,19 +285,17 @@
                 />
               </div>
 
-               <div class="n-hero-icon-desktop n-hero-icon--one">
-                  <i class="icon icon-heart"></i>
-                </div>
+              <div class="n-hero-icon-desktop n-hero-icon--one">
+                <i class="icon icon-heart"></i>
+              </div>
 
-                <div class="n-hero-icon-desktop n-hero-icon--two">
-                  <i class="icon icon-heart"></i>
-                </div>
+              <div class="n-hero-icon-desktop n-hero-icon--two">
+                <i class="icon icon-heart"></i>
+              </div>
 
-                <div class="n-hero-icon-desktop n-hero-icon--tree">
-                  <i class="icon icon-heart"></i>
-                </div>
-
-                
+              <div class="n-hero-icon-desktop n-hero-icon--tree">
+                <i class="icon icon-heart"></i>
+              </div>
             </div>
           </div>
 
@@ -405,7 +423,7 @@
                 </div>
 
                 <div class="n-advantage-tag fade-left n-advantage-tag--for">
-                 <i class="icon icon-infinity"></i>
+                  <i class="icon icon-infinity"></i>
                   <p>Доступ <a class="mobile-text-wrap">к генерации</a></p>
                 </div>
 
@@ -451,10 +469,8 @@
                 </h2>
               </div>
 
-              <div
-                class="possibilities-columns  block-cnt G-flex-column"
-              >
-                <div class="possibilities-column fade-bottom  G-flex">
+              <div class="possibilities-columns block-cnt G-flex-column">
+                <div class="possibilities-column fade-bottom G-flex">
                   <div class="possibilities-big-item">
                     <div class="possibilities-img G-flex">
                       <picture>
@@ -777,8 +793,13 @@
             <div class="reviews-body G-column-center">
               <div class="section-titles fade-top G-column-center">
                 <span class="section-tag">[ Отзывы ]</span>
-                <h2>Что говорят <span class="mobile-text-wrap">пользователи</span></h2>
-                <p>Жизненные истории, связанные <span class="mobile-text-wrap">с сервисом</span></p>
+                <h2>
+                  Что говорят <span class="mobile-text-wrap">пользователи</span>
+                </h2>
+                <p>
+                  Жизненные истории, связанные
+                  <span class="mobile-text-wrap">с сервисом</span>
+                </p>
               </div>
 
               <div class="reviews-box block-cnt G-justify-between">
@@ -1173,7 +1194,7 @@
               <div class="section-titles fade-top G-column-center">
                 <span class="section-tag">[ FAQ ] </span>
                 <h2>
-                  Все, что нужно 
+                  Все, что нужно
                   <span class="mobile-text-wrap">знать о Nexa AI</span>
                 </h2>
               </div>
