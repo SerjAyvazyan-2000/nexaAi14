@@ -44,3 +44,7 @@
           mask-image: url(infinity.svg);
   -webkit-mask-image: url(infinity.svg);
 }
+.icon-heart2{
+            mask-image: url(heart2.svg);
+  -webkit-mask-image: url(heart2.svg);
+}

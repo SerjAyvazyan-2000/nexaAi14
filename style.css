@@ -154,7 +154,7 @@ body {
   padding: 0;
   position: relative;
   height: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   background: #111215;
 }
 .G-flex {
@@ -884,11 +884,9 @@ header {
   flex-direction: column;
   align-items: center;
 }
-.n-advantage-tag--for i{
-  background: #DCE8FF;
+.n-advantage-tag--for i {
+  background: #dce8ff;
   font-size: 30px;
-
-
 }
 .n-advantage-rocket {
   max-width: 284px;
@@ -908,6 +906,10 @@ header {
 .possibilities-section {
   position: relative;
   z-index: 2;
+}
+.possibilities-body .section-titles h2 i {
+  background: #dce8ff;
+  font-size: 25px;
 }
 .possibilities-bg {
   position: absolute;
@@ -2279,6 +2281,9 @@ header {
     max-width: 180px;
     width: 100%;
   }
+  .possibilities-body .section-titles h2 i {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -2286,7 +2291,7 @@ header {
     max-width: 300px;
   }
   .n-advantage-rocket {
-     max-width: 350px;
+    max-width: 350px;
   }
 }
 @media (max-width: 460px) {
